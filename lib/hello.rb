@@ -1,6 +1,7 @@
-def hello_t
-
+def hello_t(name)
+hello_t(["Tim", "Tom", "Jim"]) do |name|
+  if name.start_with?("T")
 end
-
-# call your method here!
-
+    puts "Hi, #{name}"
+end
+end
